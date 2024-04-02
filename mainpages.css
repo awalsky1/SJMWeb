@@ -1,0 +1,186 @@
+body{
+    background-color: #16561d;
+    cursor: url('sword.png'), default;
+    cursor: url('sword.png'), pointer;
+    cursor: url('sword.png'), progress;
+    cursor: url('sword.png'), text;
+}
+
+header{
+    cursor: url('sword.png'), default;
+    cursor: url('sword.png'), pointer;
+}
+
+.navbar-custom{
+    background-color: #1b6a24;
+    cursor: url('sword.png'), pointer;
+}
+
+.navbar-brand{
+    color: #d0d0d0;
+    font-size: larger;
+    cursor: url('sword.png'), pointer;
+}
+
+.nav-item, .nav-link, .nav-link:hover{
+    color:#d0d0d0;
+    cursor: url('sword.png'), pointer;
+}
+
+
+.dropdown:hover .dropdown-menu, .dropdown-content{
+    display: block;
+    background-color:  #1b6a24;
+    color: #d0d0d0;
+    cursor: url('sword.png'), pointer;
+}
+select:hover, option:hover {
+    cursor: url('sword.png'), pointer;
+    } 
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+.quote{
+    margin-left: 40px;
+    margin-bottom: 35px;
+}
+
+.hpquote{
+    background-color:#d0d0d0;
+    margin: 25px;
+    padding: 5px;
+    cursor: url('sword.png'), default;
+}
+
+img{
+    cursor: url('sword.png'), default;
+}
+
+.hpbl{
+    background-color:#d0d0d0;
+    padding: 50px;
+    cursor: url('sword.png'), default;
+}
+
+.hpcl{
+    background-color:#d0d0d0;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    cursor: url('sword.png'), default;
+}
+
+.hpata{
+    background-color:#d0d0d0;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    cursor: url('sword.png'), default;
+}
+
+.mbp{
+    background-color:#d0d0d0;
+    padding: 50px;
+    cursor: url('sword.png'), default;
+}
+
+.binfo{
+    padding-bottom: 20px;
+}
+
+#books{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bookcovers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ebp{
+    background-color: #d0d0d0;
+    padding: 50px;
+    cursor: url('sword.png'), default;
+}
+
+#cci{
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#centerbutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.button-5 {
+    align-content: center;
+    background-clip: padding-box;
+    background-color: #d0d0d0;
+    border: 1px solid ;
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: black;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    }
+    
+    .button-5:hover,
+    .button-5:focus {
+    background-color: #d0d0d0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    }
+    
+    .button-5:hover {
+    transform: translateY(-1px);
+    }
+    
+    .button-5:active {
+    background-color: #b5b3b3;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+    }

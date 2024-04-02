@@ -1,0 +1,101 @@
+body{
+    background-color: #16561d;
+    cursor: url('sword.png'), default;
+}
+
+h1{
+    color: #d0d0d0;
+    margin-top: 50%;
+    font-size: 20px;
+    cursor: url('sword.png'), default;
+}
+
+.container-fluid{
+    width: 100%;
+    cursor: url('sword.png'), default;
+}
+
+.column{
+    font-size:large;
+    cursor: url('sword.png'), default;
+}
+
+img{
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    cursor: url('sword.png'), default;
+}
+
+.navbar-custom{
+    background-color: #1b6a24;
+    cursor: url('sword.png'), default;
+}
+
+.navbar-brand{
+    color: #d0d0d0;
+    font-size: larger;
+    cursor: url('sword.png'), default;
+}
+
+.nav-item, .nav-link{
+    color:#d0d0d0;
+    cursor: url('sword.png'), default;
+}
+
+
+.dropdown:hover .dropdown-menu, .dropdown-content{
+    display: block;
+    background-color:  #1b6a24;
+    color: #d0d0d0;
+    cursor: url('sword.png'), default;
+    }
+
+.button-5 {
+align-items: center;
+background-clip: padding-box;
+background-color: #d0d0d0;
+border: 1px solid transparent;
+border-radius: .25rem;
+box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+box-sizing: border-box;
+color: black;
+cursor: url('sword.png'), default;
+display: inline-flex;
+position:fixed;
+font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 600;
+justify-content: center;
+line-height: 1.25;
+margin: 0;
+min-height: 3rem;
+padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+position: relative;
+text-decoration: none;
+transition: all 250ms;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+vertical-align: baseline;
+width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+background-color: #d0d0d0;
+box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+cursor: url('sword.png'), default;
+}
+
+.button-5:hover {
+transform: translateY(-1px);
+cursor: url('sword.png'), default;
+}
+
+.button-5:active {
+background-color: #b5b3b3;
+box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+transform: translateY(0);
+cursor: url('sword.png'), default;
+}
